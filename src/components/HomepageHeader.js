@@ -10,5 +10,5 @@ export default function HomepageHeader(props) {
 }
 HomepageHeader.defaultProps = {
   title: "Quizzer",
-  info: "Welcome to the quizzes!",
+  info: "Welcome to the world of quizzes!",
 };

@@ -95,7 +95,7 @@
 }
 .login-box,
 .registration-box {
-  margin: 20px auto;
+  margin: 100px auto;
   padding: 5%;
   width: 70%;
   text-align: center;
@@ -158,19 +158,22 @@
   padding: 30px;
   color: white;
 }
-.HPNav {
+.HPNav,
+.quizNav {
   color: lightseagreen;
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
   align-items: flex-end;
 }
-.HPNav a {
+.HPNav a,
+.quizNav a {
   color: lightseagreen;
   text-decoration: none;
   padding: 5px;
 }
-.HPNav a:hover {
+.HPNav a:hover,
+.quizNav a:hover {
   background-color: lightseagreen;
   color: white;
 }
