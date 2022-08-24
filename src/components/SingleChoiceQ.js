@@ -1,28 +1,57 @@
 import React from "react";
 
-export default function SingleChoiceQ() {
+export default function SingleChoiceQ(props) {
   return (
     <div className="SingleChoiceQ">
       <div className="question">
-        <h3>This is a single choice question.</h3>
+        <h3>{props.question}</h3>
         <p className="desc">Only one choice can be selected - radio</p>
       </div>
       <div className="responses">
         <div className="option">
-          <input id="op1" type="radio" value="option1" name="q1" />
-          <label for="op1">Option 1</label>
+          <label htmlFor={props.option1}>
+            {" "}
+            <input
+              id={props.id + "1"}
+              type="radio"
+              value={props.id + "1"}
+              name={props.id}
+            />
+            {props.option1}
+          </label>
         </div>
         <div className="option">
-          <input id="op2" type="radio" value="option2" name="q1" />
-          <label for="op2">Option 2</label>
+          <label htmlFor={props.id + "2"}>
+            <input
+              id={props.id + "2"}
+              type="radio"
+              value={props.option2}
+              name={props.id}
+            />
+            {props.option2}
+          </label>
         </div>
         <div className="option">
-          <input id="op3" type="radio" value="option3" name="q1" />
-          <label for="op3">Option 3</label>
+          <label htmlFor={props.id + "3"}>
+            <input
+              id={props.id + "3"}
+              type="radio"
+              value={props.option3}
+              name={props.id}
+            />
+            {props.option3}
+          </label>
         </div>
         <div className="option">
-          <input id="op4" type="radio" value="option4" name="q1" />
-          <label for="op4">Option 4</label>
+          <label htmlFor={props.id + "4"}>
+            <input
+              id={props.id + "4"}
+              type="radio"
+              value={props.option4}
+              name={props.id}
+            />
+            {props.option4}
+          </label>
         </div>
       </div>
     </div>

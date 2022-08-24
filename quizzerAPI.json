@@ -1,140 +1,92 @@
 {
   "easy": [
     {
+      "id": 0,
+      "questionText": "This is easy question 1",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": false },
+        { "answerText": "Option 3", "isCorrect": true },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
+    },
+    {
       "id": 1,
-      "question": "This is question 1",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "c"
+      "questionText": "This is easy question 2",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     },
     {
       "id": 2,
-      "question": "This is question 2",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
-    },
-    {
-      "id": 3,
-      "question": "This is question 3",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "d"
-    },
-    {
-      "id": 4,
-      "question": "This is question 4",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "b"
+      "questionText": "This is easy question 3",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     }
   ],
   "medium": [
     {
-      "id": 1,
-      "question": "This is question 1 medium",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "c"
+      "questionText": "This is medium question 1",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": false },
+        { "answerText": "Option 3", "isCorrect": true },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     },
     {
-      "id": 2,
-      "question": "This is question 2 medium",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
+      "questionText": "This is medium question 2",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     },
     {
-      "id": 3,
-      "question": "This is question 3 medium",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
-    },
-    {
-      "id": 4,
-      "question": "This is question 4 medium",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "b"
+      "questionText": "This is medium question 3",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     }
   ],
   "difficult": [
     {
-      "id": 1,
-      "question": "This is question 1 difficult",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
+      "questionText": "This is difficult question 1",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": false },
+        { "answerText": "Option 3", "isCorrect": true },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     },
     {
-      "id": 2,
-      "question": "This is question 2 difficult",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
+      "questionText": "This is difficult question 2",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     },
     {
-      "id": 3,
-      "question": "This is question 3 difficult",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
-    },
-    {
-      "id": 4,
-      "question": "This is question 4 difficult",
-      "responses": {
-        "a:": "Option a",
-        "b:": "Option b",
-        "c": "Option c",
-        "d": "Option d"
-      },
-      "correct": "a"
+      "questionText": "This is difficult question 3",
+      "answerOptions": [
+        { "answerText": "Option 1", "isCorrect": false },
+        { "answerText": "Option 2", "isCorrect": true },
+        { "answerText": "Option 3", "isCorrect": false },
+        { "answerText": "Option 4", "isCorrect": false }
+      ]
     }
   ]
 }
