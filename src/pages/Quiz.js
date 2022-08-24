@@ -4,7 +4,7 @@ import MultipleChoiceQ from "../components/MultipleChoiceQ";
 import AnswerQ from "../components/AnswerQ";
 import HomepageHeader from "../components/HomepageHeader";
 import QuizNav from "../components/QuizNav";
-
+import Footer from "../components/Footer";
 export default function Quiz() {
   return (
     <div>
@@ -16,6 +16,7 @@ export default function Quiz() {
       <SingleChoiceQ />
       <MultipleChoiceQ />
       <AnswerQ />
+      <Footer />
     </div>
   );
 }
