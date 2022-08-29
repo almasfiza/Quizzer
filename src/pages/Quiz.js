@@ -22,7 +22,7 @@ class Quiz extends Component {
           info="<Quiz creater, marks, deadline>"
         />
         <Selector />
-        {items.map((item) => (
+        {/* {items.map((item) => (
           <SingleChoiceQ
             id={item.id}
             question={item.questionText}
@@ -31,7 +31,7 @@ class Quiz extends Component {
             option3={item.answerOptions[2].answerText}
             option4={item.answerOptions[3].answerText}
           />
-        ))}
+        ))} */}
 
         <MultipleChoiceQ />
         <AnswerQ />

@@ -33,6 +33,7 @@
   ],
   "medium": [
     {
+      "id": 0,
       "questionText": "This is medium question 1",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "id": 1,
       "questionText": "This is medium question 2",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },
@@ -51,6 +53,7 @@
       ]
     },
     {
+      "id": 2,
       "questionText": "This is medium question 3",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },
@@ -62,6 +65,7 @@
   ],
   "difficult": [
     {
+      "id": 0,
       "questionText": "This is difficult question 1",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },
@@ -71,6 +75,7 @@
       ]
     },
     {
+      "id": 1,
       "questionText": "This is difficult question 2",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },
@@ -80,6 +85,7 @@
       ]
     },
     {
+      "id": 2,
       "questionText": "This is difficult question 3",
       "answerOptions": [
         { "answerText": "Option 1", "isCorrect": false },

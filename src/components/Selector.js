@@ -5,6 +5,7 @@ import SingleChoiceQ from "./SingleChoiceQ";
 
 export default function Selector() {
   const [level, setLevel] = useState("selectLevel");
+  const [questions, setQuestions] = useState("");
 
   const [easyContentVisible, setEasyContentVisible] = useState(false);
   const [medContentVisible, setMedContentVisible] = useState(false);
@@ -24,6 +25,25 @@ export default function Selector() {
       : setDiffContentVisible(false);
   }, [level]);
 
+  //function to fetch the questions
+  // const fetchQuestions = async () => {
+  //   const apiCall = await fetch(`http://localhost:3000/${level}`);
+
+  // }
+
+  useEffect(() => {
+    let url = `http://localhost:3000/${level}`;
+    console.log(url);
+
+    fetch(url)
+      .then((res) => {
+        return res.json();
+      })
+      .then((items) => {
+        console.log(items);
+        setQuestions(items);
+      });
+  }, [level]);
   return (
     <div>
       <div className="select-tab">
@@ -47,9 +67,39 @@ export default function Selector() {
           </select>
         </div>
       </div>
-      {easyContentVisible && <SingleChoiceQ question="easy" />}
-      {medContentVisible && <SingleChoiceQ question="Medium" />}
-      {diffContentVisible && <SingleChoiceQ question="Difficult" />}
+      {easyContentVisible &&
+        questions.map((item) => (
+          <SingleChoiceQ
+            id={item.id}
+            question={item.questionText}
+            option1={item.answerOptions[0].answerText}
+            option2={item.answerOptions[1].answerText}
+            option3={item.answerOptions[2].answerText}
+            option4={item.answerOptions[3].answerText}
+          />
+        ))}
+      {medContentVisible &&
+        questions.map((item) => (
+          <SingleChoiceQ
+            id={item.id}
+            question={item.questionText}
+            option1={item.answerOptions[0].answerText}
+            option2={item.answerOptions[1].answerText}
+            option3={item.answerOptions[2].answerText}
+            option4={item.answerOptions[3].answerText}
+          />
+        ))}
+      {diffContentVisible &&
+        questions.map((item) => (
+          <SingleChoiceQ
+            id={item.id}
+            question={item.questionText}
+            option1={item.answerOptions[0].answerText}
+            option2={item.answerOptions[1].answerText}
+            option3={item.answerOptions[2].answerText}
+            option4={item.answerOptions[3].answerText}
+          />
+        ))}
     </div>
   );
 }
